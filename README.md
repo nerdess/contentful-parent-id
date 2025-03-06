@@ -1,19 +1,14 @@
 This project was bootstrapped with [Create Contentful App](https://github.com/contentful/create-contentful-app).
 
-## How to use
+## What it does
 
-Execute create-contentful-app with npm, npx or yarn to bootstrap the example:
+It shows the Contentful Id of the parent that is linking to an entry (1:1 relationship)
 
-```bash
-# npx
-npx create-contentful-app --typescript
+### Parent is linking to a child
+![Parent is linking to a child](https://github.com/user-attachments/assets/9872eb0d-8b18-4209-803e-d6ff41178091)
 
-# npm
-npm init contentful-app -- --typescript
-
-# Yarn
-yarn create contentful-app --typescript
-```
+### Child is showing Contentful Id of parent
+![Child is showing Contentful Id of parent](https://github.com/user-attachments/assets/46bd97f0-fb98-484b-bf3d-c3cb572aa523)
 
 ## Available Scripts
 
